@@ -1,5 +1,5 @@
 # Algorithms
-#$**Bubble sort**$ : Swap adjacent elements from the last to the first unsorted element until the entire array is sorted. (Array="A", length = "l")  
+#**Bubble sort** : Swap adjacent elements from the last to the first unsorted element until the entire array is sorted. (Array="A", length = "l")  
 
 #**Insertion sort** : Repeatedly taking the next unsorted element and inserting it into its correct position, the array becomes sorted. (Array="A", length = "N")  
 
