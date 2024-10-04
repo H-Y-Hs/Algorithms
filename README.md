@@ -10,7 +10,9 @@ time complexity : $O(n^2)$
 #**Merge sort** : Iteratively divides the array into two halves, recursively sorts each half, and then merges the sorted halves until the entire array is sorted. (Array = "A", length = "N")  
 time complexity : $O(n\log\ n)$  
 
-#**Quick sort** : I use two methods to implement Quick Sort. The first method is less efficient because it combines both for and while loops. Select the first element of array "A" as the base value, then iteratively partition the array so that elements smaller than the base value are placed before it, and elements larger than the base value are placed after it. (Array = "A", length = "N")  
+#**Quick sort** : I use two methods to implement Quick Sort.  
+The first method is less efficient because it combines both for and while loops.  
+The second method is to select the first element of array "A" as the base value, then iteratively partition the array so that elements smaller than the base value are placed before it, and elements larger than the base value are placed after it. (Array = "A", length = "N")  
 time complexity : $O(n\log\ n)$
 
 #**Counting sort** : Create an array "B" to count occurrences of each element, then iteratively fill the original array with elements based on their counts to sort the array. (Array="A", length="N",  largest value of element = "max")  
