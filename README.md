@@ -11,10 +11,10 @@ time complexity : $O(n^2)$
 time complexity : $O(n\log n)$  
 
 #**Quick sort** : I use two methods to implement Quick Sort. The first method is less efficient because it combines both for and while loops. Select the first element of array "A" as the base value, then iteratively partition the array so that elements smaller than the base value are placed before it, and elements larger than the base value are placed after it. (Array = "A", length = "N")  
-time complexity : $O(n\ log\ n)$
+time complexity : $O(n\log\ n)$
 
 #**Counting sort** : Create an array "B" to count occurrences of each element, then iteratively fill the original array with elements based on their counts to sort the array. (Array="A", length="N",  largest value of element = "max")  
 time complexity : $O(n+k)$ 
 
 #**Shell sort** : Recursively comparing and swapping elements spaced apart by "space", which is halved in each recursive call until the gap becomes 1. (Array = "A", length = "N") 
-time complexity : $O(n\ log\ n)$  
+time complexity : $O(n\log\ n)$  
