@@ -16,5 +16,5 @@ time complexity : $O(n\log\ n)$
 #**Counting sort** : Create an array "B" to count occurrences of each element, then iteratively fill the original array with elements based on their counts to sort the array. (Array="A", length="N",  largest value of element = "max")  
 time complexity : $O(n+k)$ 
 
-#**Shell sort** : Recursively comparing and swapping elements spaced apart by "space", which is halved in each recursive call until the gap becomes 1. (Array = "A", length = "N") 
+#**Shell sort** : Recursively comparing and swapping elements spaced apart by "space", which is halved in each recursive call until the gap becomes 1. (Array = "A", length = "N")  
 time complexity : $O(n\log\ n)$  
